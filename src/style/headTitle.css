@@ -1,0 +1,55 @@
+.headDiv {
+    display: inline-block;
+    width: 130px;
+    height: 146px;
+    margin-right: 150px;
+}
+.firstPart{
+    display: inline-block;
+    width: 95px;
+    height: 101px;
+    color: #2C2E3F;
+    font-size: 96px;
+    position: relative;
+    top: -50px;
+}
+@keyframes myfirst{
+    from {height: 0px;}
+    to {height: 128px;}
+}
+.secondPart{
+    animation: myfirst 0.8s;
+}
+.secondPart{
+    display: inline-block;
+    width: 1px;
+    height: 128px;
+    background: #D8D8D8;
+    margin-left: 15px;
+    margin-top: 3px;
+    position: absolute;
+
+}
+.thirdPart{
+    display: inline-block;
+    position: relative;
+    width: 26px;
+    font-size: 26px;
+    letter-spacing: 1em;
+    word-break: break-all;
+    font-family: kai;
+    color: #333333;
+    line-height:130%;
+    top: 2px;
+    left: 26px;
+
+
+}
+.ovalImg{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 75px;
+    top: 116px;
+}
