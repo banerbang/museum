@@ -63,7 +63,7 @@ class App extends React.Component{
           </HeadTitle>
           <HeadTitle 
             thirdPartFont='博物馆志' 
-            onHeadClick={this.handleClick} 
+            onHeadClick={this.handleClick.bind(this, 1)} 
             ifClicked={clickedIndex == 1 ? true : false}
             onHeadOver={this.handleOver.bind(this, 1)}
             ifHover={hoverIndex == 1 ? true : false}
