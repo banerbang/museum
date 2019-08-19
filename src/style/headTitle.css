@@ -3,6 +3,8 @@
     width: 130px;
     height: 146px;
     margin-right: 150px;
+    left: 35px;
+    position: relative;
 }
 .firstPart{
     display: inline-block;

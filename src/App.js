@@ -5,6 +5,7 @@ import shou from './assets/shou.png'
 import gui from './assets/gui.png'
 import guan from './assets/guan.png'
 import TimeLineCom from './component/TimeLineCom.js'
+import CityLineCom from './component/CityLineCom.js'
 import { Icon } from 'antd'
 
 class App extends React.Component{
@@ -84,7 +85,7 @@ class App extends React.Component{
         </div>
         <div>
           {clickedIndex == 0 ? <TimeLineCom /> : null}
-          {clickedIndex == 1 ? 2 : null}
+          {clickedIndex == 1 ? <CityLineCom /> : null}
           {clickedIndex == 2 ? 3 : null}
         </div>
         <Icon type="up-square"  className = 'backToTop' onClick = {this.goTop} ß/>

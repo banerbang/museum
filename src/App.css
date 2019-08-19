@@ -43,9 +43,8 @@
 .backToTop {
   float: right;
   position: fixed;
-  /* top: 100px; */
-  right: 34px;
+  right: 55px;
   font-size: 40px;
-  color: #999999;
   bottom: 50px;
+  color: #999999 !important;
 }
