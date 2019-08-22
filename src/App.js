@@ -6,7 +6,9 @@ import gui from './assets/gui.png'
 import guan from './assets/guan.png'
 import TimeLineCom from './component/TimeLineCom.js'
 import CityLineCom from './component/CityLineCom.js'
+import MapLineCom from './component/MapLineCom.js'
 import { Icon } from 'antd'
+import toTop from './assets/toTop@3x.png'
 
 class App extends React.Component{
   constructor(props) {
@@ -44,7 +46,7 @@ class App extends React.Component{
       if (top == 0) {
           clearInterval(scrollToptimer);
       }
-  }, 20); 
+  }, 25); 
   }
 
   render () {
@@ -86,9 +88,9 @@ class App extends React.Component{
         <div>
           {clickedIndex == 0 ? <TimeLineCom /> : null}
           {clickedIndex == 1 ? <CityLineCom /> : null}
-          {clickedIndex == 2 ? 3 : null}
+          {clickedIndex == 2 ? <MapLineCom />: null}
         </div>
-        <Icon type="up-square"  className = 'backToTop' onClick = {this.goTop} ß/>
+        <div className = 'backToTop' onClick = {this.goTop} ß/>
       </div>
     )
   }

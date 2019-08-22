@@ -2,8 +2,8 @@
     display: inline-block;
     height: auto;
     position: relative;
-    left: 80px;
-    top: 200px;
+    left: 40px;
+    top: 165px;
 }
 
 .grayLine{
@@ -13,7 +13,7 @@
     background-color: #e5e5e5;
     position: relative;
     float: right;
-    top: -318px;
+    top: -334px;
     left: 25px;
     z-index: 1;
 }
@@ -32,11 +32,10 @@
 .choosedFist{
     font-size: 26px;
     font-family: kai;
-    color: #2C2E3F;
+    color: #ED0000;
     line-height: 26px;
     text-align: right;
 }
-
 .firstDiv{
     font-size: 16px;
     font-family: kai;
@@ -44,12 +43,17 @@
     line-height: 16px;
     text-align: right;
 }
-
 .itemDiv {
-    height: 100px;
+    height: 55px;
     width: 182px;
+    margin-bottom:50px; 
 }
-
+.itemDiv:hover  .firstDiv{
+    color: #ED0000;
+}
+.itemDiv:hover  .secondDiv{
+    color: #80818B;
+}
 .choosedSecond{
     font-size: 16px;
     font-family: kai;
@@ -70,7 +74,7 @@
     display: inline-block;
     width: 70%;
     position: absolute;
-    top: 485px;
-    left: 350px;
+    top: 450px;
+    left: 300px;
     padding-top: 15px;
 }

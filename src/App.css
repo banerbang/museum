@@ -43,8 +43,16 @@
 .backToTop {
   float: right;
   position: fixed;
-  right: 55px;
+  right: 80px;
   font-size: 40px;
   bottom: 50px;
-  color: #999999 !important;
+  color: #e8e8e8 !important;
+  width: 40px;
+  height: 40px;
+  background-image:url(./assets/toTop@3x.png);
+  background-size:100%;
+}
+.backToTop:hover{
+  background-image:url(./assets/gotop@3x.png);
+  background-size:100%;
 }

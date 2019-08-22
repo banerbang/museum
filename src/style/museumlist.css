@@ -1,0 +1,109 @@
+.ant-tabs-bar{
+    border: none
+}
+.ant-tabs{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    zoom: 1;
+    left: 20px;
+    overflow: visible !important; 
+}
+.ant-tabs-ink-bar {
+    display: block;
+    width:36px !important; 
+    background-color:#ED0000 !important;
+}
+/* .ant-tabs-ink-bar-animated{
+    display: block;
+    width:36px !important; 
+    color: #ed0000 !important;
+} */
+.ant-tabs-tab-active {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 2px !important;
+    margin-right: 20px !important;
+    color: #ED0000 !important;
+    font-family: kai ;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.ant-tabs-tab{
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 2px !important;
+    margin-right: 20px !important;
+    color: #6B6C78 ;
+    font-family: kai ;
+    font-size: 18px;
+}
+.ant-tabs-tab:hover{
+    color: #ED0000 !important;
+}
+.ant-tabs-ink-bar{
+    background-color: #ED0000 !important;
+    height: 1px;
+}
+.ant-card{
+    display: inline-block;
+    width: 320px !important;
+    height: 260px;
+    border-radius:0px;
+    margin-right: 30px;
+}
+.ant-card-hoverable:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09) !important;
+}
+.ant-card-cover{
+    width: 318px;
+    height: 201px !important;
+    overflow: hidden;
+    border-radius:0px !important;
+}
+.ant-card-body{
+    width: 320px;
+    left: -1px;
+    position: relative;
+    display: block;
+    height: 58px;
+    border: 1px solid #e8e8e8;
+}
+.ant-card-meta{
+    margin-top: -18px;
+    margin-left: -10px !important;
+}
+.ant-card-meta-title{
+    color: #1F2126;
+    font-size: 16px;
+    font-family: kai;
+    margin-bottom: 0px !important;
+}
+.ant-card-meta-description{
+    color: #6B6C78;
+    font-size: 14px;
+    font-family: kai;
+}
+.contentDiv2{
+    display: inline-block;
+    width: 80%;
+    position: absolute;
+    top: 450px;
+    left: 280px;
+    padding-top: 15px;
+}
+.ant-card-hoverable{
+    color: red;
+}
+.ant-card-cover img{
+    border-radius:0px;
+}

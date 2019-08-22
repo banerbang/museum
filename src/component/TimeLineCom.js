@@ -51,8 +51,10 @@ export default class TimeLineCom extends React.Component{
     }
 
     componentDidMount(){
-      let domHeight = document.getElementsByClassName('timeLineDiv')[0].offsetHeight;
+      let imgNum = document.getElementsByClassName('mapImg').length;
+      let domHeight = document.getElementsByClassName('contentDiv')[0].offsetHeight + imgNum * 300;
       document.getElementsByClassName('grayLine')[0].style.height= `${domHeight}px`;
+      document.getElementsByClassName('timeLineDiv')[0].style.height= `${domHeight}px`;
     }
     
     render () {
